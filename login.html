@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Modern Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a1a2e; /* Dark background */
+            color: #e0e0e0; /* Light text */
+        }
+
+        .card {
+            background-color: #16213e; /* Dark card background */
+            border: none;
+        }
+
+        .card-header, .card-body {
+            color: #e0e0e0; /* Light text */
+        }
+
+        .btn-primary {
+            background-color: #0f3460;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #533483;
+        }
+
+        .form-control {
+            background-color: #0f3460;
+            color: #e0e0e0;
+        }
+
+        .form-control::placeholder {
+            color: #b6b6b6;
+        }
+
+        .form-label {
+            color: #a0a0c0; /* Light purple label */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="text-center">Login</h3>
+                        <p class="lead">Todays password hint: You crocheted me one of these... that meant a lot to me.</p>
+                        <form id="loginForm">
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Enter password">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
